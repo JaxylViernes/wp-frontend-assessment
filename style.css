@@ -1,0 +1,194 @@
+/*
+Theme Name: Property Bootstrap
+Description: Front-end assessment theme built with Bootstrap 5, Font Awesome and Open Sans.
+Version: 1.0
+Text Domain: property-bootstrap
+*/
+
+:root {
+    --pb-purple: #4a43a8;
+    --pb-yellow: #e6b800;
+    --pb-red: #e02b20;
+    --pb-gold: #d89c0f;
+    --pb-dark: #262626;
+}
+
+body {
+    font-family: 'Open Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    color: #333;
+}
+
+/* ---------- Hero ---------- */
+.hero {
+    background: linear-gradient(135deg, #2f2a75, var(--pb-purple));
+}
+
+/* ---------- Featured listings ---------- */
+.featured-section {
+    background: #f5f6fa;
+}
+
+.section-title {
+    color: var(--pb-purple);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.property-card {
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.property-media img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+}
+
+.property-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+}
+
+.property-price {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.05rem;
+}
+
+.property-status {
+    font-weight: 600;
+    font-size: 0.7rem;
+    padding: 0.4em 0.9em;
+    border-radius: 50rem;
+}
+
+.status-let-agreed {
+    background: var(--pb-red);
+    color: #fff;
+}
+
+.status-to-let,
+.status-for-sale {
+    background: var(--pb-yellow);
+    color: #1a1a1a;
+}
+
+.property-title {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.property-meta .sep {
+    color: var(--pb-yellow);
+    margin: 0 0.35rem;
+}
+
+.property-footer {
+    background: #fff;
+    border-top: 2px solid #e9dd9a;
+}
+
+.btn-fav {
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-radius: 50%;
+    background: var(--pb-purple);
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+.btn-fav:hover,
+.btn-fav:focus-visible {
+    background: #362f8a;
+}
+
+/* ---------- Google reviews slider ---------- */
+.reviews-section {
+    background: var(--pb-gold);
+}
+
+.reviews-title {
+    color: #fff;
+    font-weight: 700;
+}
+
+.reviews-stars {
+    color: #fff;
+}
+
+.review {
+    margin: 0;
+}
+
+.review-text {
+    position: relative;
+    margin: 0;
+    padding: 1rem 1.25rem;
+    background: var(--pb-dark);
+    color: #fff;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.review-text::after {
+    content: "";
+    position: absolute;
+    left: 6.5rem;
+    bottom: -14px;
+    border-right: 22px solid transparent;
+    border-top: 14px solid var(--pb-dark);
+}
+
+.review-stars {
+    color: #ffc928;
+    margin-bottom: 0.5rem;
+}
+
+.review-author {
+    margin-top: 1rem;
+    padding-left: 1.25rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: #3b2f00;
+}
+
+.carousel-indicators.reviews-dots {
+    position: static;
+    margin: 0;
+    width: auto;
+}
+
+.carousel-indicators.reviews-dots [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border: 0;
+    border-radius: 50%;
+    text-indent: 0;
+    background-color: #fff;
+}
+
+.reviews-arrow {
+    width: 36px;
+    height: 36px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: transparent;
+    color: #fff;
+}
+
+.reviews-arrow:hover,
+.reviews-arrow:focus-visible {
+    background: #fff;
+    color: var(--pb-gold);
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Bedroom placeholder">
+  <rect width="600" height="400" fill="#eef0f2"/>
+  <rect x="0" y="320" width="600" height="80" fill="#9a9a9a"/>
+  <rect x="350" y="60" width="200" height="130" fill="#bcd9ea" stroke="#222" stroke-width="8"/>
+  <rect x="90" y="110" width="200" height="120" fill="#fff" stroke="#222" stroke-width="6"/>
+  <rect x="80" y="230" width="360" height="95" rx="8" fill="#ffffff"/>
+  <rect x="80" y="270" width="360" height="55" fill="#2f8f96"/>
+  <rect x="110" y="215" width="90" height="35" rx="8" fill="#d9eef0"/>
+  <rect x="210" y="215" width="90" height="35" rx="8" fill="#d9eef0"/>
+</svg>

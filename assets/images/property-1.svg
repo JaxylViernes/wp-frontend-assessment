@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Living room placeholder">
+  <rect width="600" height="400" fill="#dfe8ee"/>
+  <rect x="0" y="300" width="600" height="100" fill="#b9a98f"/>
+  <rect x="60" y="50" width="200" height="190" fill="#bcd9ea"/>
+  <rect x="340" y="50" width="200" height="190" fill="#bcd9ea"/>
+  <path d="M160 50v190M60 145h200M440 50v190M340 145h200" stroke="#fff" stroke-width="6"/>
+  <rect x="150" y="250" width="300" height="70" rx="10" fill="#8a7a63"/>
+  <rect x="150" y="225" width="300" height="40" rx="10" fill="#a08f76"/>
+  <rect x="200" y="235" width="50" height="35" rx="6" fill="#3aa3b5"/>
+  <rect x="350" y="235" width="50" height="35" rx="6" fill="#3aa3b5"/>
+</svg>
